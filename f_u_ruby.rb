@@ -7,197 +7,197 @@ class Hash
         self.each do |x, y| end
     end
   end
-  def & 
-   self.to_a.& 
+  def & (*args)
+   self.to_a.&(*args)
   end
-  def * 
-   self.to_a.* 
+  def * (*args)
+   self.to_a.*(*args)
   end
-  def + 
-   self.to_a.+ 
+  def + (*args)
+   self.to_a.+(*args)
   end
-  def - 
-   self.to_a.- 
+  def - (*args)
+   self.to_a.-(*args)
   end
-  def << 
-   self.to_a.<<
+  def << (*args)
+   self.to_a.<<(*args)
   end
-  def <=> 
-   self.to_a.<=>
+  def <=> (*args)
+   self.to_a.<=>(*args)
   end
-  def == 
-   self.to_a.==
+  def == (*args)
+   self.to_a.==(*args)
   end
-  def at 
-   self.to_a.at
+  def at (*args)
+   self.to_a.at(*args)
   end
-  def bsearch 
-   self.to_a.bsearch
+  def bsearch (*args)
+   self.to_a.bsearch(*args)
   end
-  def collect 
-   self.to_a.collect 
+  def collect (*args)
+   self.to_a.collect(*args)
   end
-  def collect! 
-   self.to_a.collect! 
+  def collect! (*args)
+   self.to_a.collect!(*args)
   end
-  def combination 
-   self.to_a.combination 
+  def combination (*args)
+   self.to_a.combination(*args)
   end
-  def concat 
-   self.to_a.concat 
+  def concat (*args)
+   self.to_a.concat(*args)
   end
-  def count 
-   self.to_a.count 
+  def count (*args)
+   self.to_a.count(*args)
   end
-  def cycle 
-   self.to_a.cycle 
+  def cycle (*args)
+   self.to_a.cycle(*args)
   end
-  def delete_at 
-   self.to_a.delete_at 
+  def delete_at (*args)
+   self.to_a.delete_at(*args)
   end
-  def drop 
-   self.to_a.drop
+  def drop (*args)
+   self.to_a.drop(*args)
   end
-  def drop_while 
-   self.to_a.drop_while
+  def drop_while (*args)
+   self.to_a.drop_while(*args)
   end
-  def each_index 
-   self.to_a.each_index
+  def each_index (*args)
+   self.to_a.each_index(*args)
   end
-  def fill 
-   self.to_a.fill
+  def fill (*args)
+   self.to_a.fill(*args)
   end
-  def find_index 
-   self.to_a.find_index
+  def find_index (*args)
+   self.to_a.find_index(*args)
   end
-  def first 
-   self.to_a.first 
+  def first (*args)
+   self.to_a.first(*args)
   end
-  def flatten! 
-   self.to_a.flatten! 
+  def flatten! (*args)
+   self.to_a.flatten!(*args)
   end
-  def frozen? 
-   self.to_a.frozen? 
+  def frozen? (*args)
+   self.to_a.frozen?(*args)
   end
-  def index 
-   self.to_a.index 
+  def index (*args)
+   self.to_a.index(*args)
   end
-  def initialize_copy 
-   self.to_a.initialize_copy 
+  def initialize_copy (*args)
+   self.to_a.initialize_copy(*args)
   end
-  def insert 
-   self.to_a.insert 
+  def insert (*args)
+   self.to_a.insert(*args)
   end
-  def join 
-   self.to_a.join 
+  def join (*args)
+   self.to_a.join(*args)
   end
-  def last 
-   self.to_a.last 
+  def last (*args)
+   self.to_a.last(*args)
   end
-  def map 
-   self.to_a.map 
+  def map (*args)
+   self.to_a.map(*args)
   end
-  def map! 
-   self.to_a.map! 
+  def map! (*args)
+   self.to_a.map!(*args)
   end
-  def max 
-   self.to_a.max 
+  def max (*args)
+   self.to_a.max(*args)
   end
-  def min 
-   self.to_a.min 
+  def min (*args)
+   self.to_a.min(*args)
   end
-  def pack 
-   self.to_a.pack 
+  def pack (*args)
+   self.to_a.pack(*args)
   end
-  def permutation 
-   self.to_a.permutation 
+  def permutation (*args)
+   self.to_a.permutation(*args) 
   end
-  def pop 
-   self.to_a.pop 
+  def pop (*args)
+   self.to_a.pop(*args)
   end
-  def product 
-   self.to_a.product 
+  def product (*args)
+   self.to_a.product(*args)
   end
-  def push 
-   self.to_a.push 
+  def push (*args)
+   self.to_a.push(*args)
   end
-  def repeated_combination 
-   self.to_a.repeated_combination 
+  def repeated_combination (*args)
+   self.to_a.repeated_combination(*args)
   end
-  def repeated_permutation 
-   self.to_a.repeated_permutation 
+  def repeated_permutation (*args)
+   self.to_a.repeated_permutation(*args)
   end
-  def reverse 
-   self.to_a.reverse 
+  def reverse (*args)
+   self.to_a.reverse(*args)
   end
-  def reverse! 
-   self.to_a.reverse! 
+  def reverse! (*args)
+   self.to_a.reverse!(*args)
   end
-  def reverse_each 
-   self.to_a.reverse_each 
+  def reverse_each (*args)
+   self.to_a.reverse_each(*args)
   end
-  def rindex 
-   self.to_a.rindex 
+  def rindex (*args)
+   self.to_a.rindex(*args)
   end
-  def rotate 
-   self.to_a.rotate 
+  def rotate (*args)
+   self.to_a.rotate(*args)
   end
-  def rotate! 
-   self.to_a.rotate! 
+  def rotate! (*args)
+   self.to_a.rotate!(*args)
   end
-  def sample 
-   self.to_a.sample 
+  def sample (*args)
+   self.to_a.sample(*args)
   end
-  def shuffle 
-   self.to_a.shuffle 
+  def shuffle (*args)
+   self.to_a.shuffle(*args)
   end
-  def shuffle! 
-   self.to_a.shuffle! 
+  def shuffle! (*args)
+   self.to_a.shuffle!(*args)
   end
-  def slice 
-   self.to_a.slice 
+  def slice (*args)
+   self.to_a.slice(*args)
   end
-  def slice! 
-   self.to_a.slice! 
+  def slice! (*args)
+   self.to_a.slice!(*args)
   end
-  def sort 
-   self.to_a.sort 
+  def sort (*args)
+   self.to_a.sort(*args)
   end
-  def sort! 
-   self.to_a.sort! 
+  def sort! (*args)
+   self.to_a.sort!(*args)
   end
-  def sort_by! 
-   self.to_a.sort_by! 
+  def sort_by! (*args)
+   self.to_a.sort_by!(*args)
   end
-  def sum 
-   self.to_a.sum 
+  def sum (*args)
+   self.to_a.sum(*args)
   end
-  def take 
-   self.to_a.take 
+  def take (*args)
+   self.to_a.take(*args)
   end
-  def take_while 
-   self.to_a.take_while 
+  def take_while (*args)
+   self.to_a.take_while(*args)
   end
-  def to_ary 
-   self.to_a.to_ary 
+  def to_ary (*args)
+   self.to_a.to_ary(*args)
   end
-  def transpose 
-   self.to_a.transpose 
+  def transpose (*args)
+   self.to_a.transpose(*args)
   end
-  def uniq 
-   self.to_a.uniq 
+  def uniq (*args)
+   self.to_a.uniq(*args)
   end
-  def uniq! 
-   self.to_a.uniq! 
+  def uniq! (*args)
+   self.to_a.uniq!(*args)
   end
-  def unshift 
-   self.to_a.unshift 
+  def unshift (*args)
+   self.to_a.unshift(*args)
   end
-  def zip 
-   self.to_a.zip 
+  def zip (*args)
+   self.to_a.zip(*args)
   end
-  def | 
-   self.to_a.| 
+  def | (*args)
+   self.to_a.|(*args)
   end
 end
   
