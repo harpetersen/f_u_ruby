@@ -71,9 +71,6 @@ class Hash
   def unshift end
   def zip end
   def | end
-  
-  
-  
 end
   
 class Array
