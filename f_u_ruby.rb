@@ -202,40 +202,103 @@ class Hash
 end
   
 class Array
-  def each
-    self do |x| end
+  def < (*args)
+    self.to_h.<(*args) 
   end
-  def < end
-  def <= end
-  def == end
-  def > end
-  def >= end
-  def compare_by_identity end
-  def compare_by_identity? end
-  def default end
-  def default= end
-  def default_proc end
-  def default_proc= end
-  def each_key end
-  def each_pair end
-  def each_value end
-  def fetch_values end
-  def has_key? end
-  def has_value? end
-  def invert end
-  def key end
-  def key? end
-  def keys end
-  def member? end
-  def merge end
-  def merge! end
-  def rehash end
-  def store end
-  def to_hash end
-  def to_proc end
-  def transform_values end
-  def transform_values! end
-  def update end
-  def value? end
-  def values end
+  def <= (*args)
+    self.to_h.<=(*args) 
+  end
+  def == (*args)
+    self.to_h.==(*args) 
+  end
+  def > (*args)
+    self.to_h.>(*args) 
+  end
+  def >= (*args)
+    self.to_h.>=(*args) 
+  end
+  def compare_by_identity (*args)
+    self.to_h.compare_by_identity(*args) 
+  end
+  def compare_by_identity? (*args)
+    self.to_h.compare_by_identity?(*args) 
+  end
+  def default (*args)
+    self.to_h.default(*args) 
+  end
+  def default= (*args)
+    self.to_h.default=(*args) 
+  end
+  def default_proc (*args)
+    self.to_h.default_proc(*args) 
+  end
+  def default_proc= (*args)
+    self.to_h.default_proc=(*args) 
+  end
+  def each_key (*args)
+    self.to_h.each_key(*args) 
+  end
+  def each_pair (*args)
+    self.to_h.each_pair(*args) 
+  end
+  def each_value (*args)
+    self.to_h.each_value(*args) 
+  end
+  def fetch_values (*args)
+    self.to_h.fetch_values(*args) 
+  end
+  def has_key? (*args)
+    self.to_h.has_key?(*args) 
+  end
+  def has_value? (*args)
+    self.to_h.has_value?(*args) 
+  end
+  def invert (*args)
+    self.to_h.invert(*args) 
+  end
+  def key (*args)
+    self.to_h.key(*args) 
+  end
+  def key? (*args)
+    self.to_h.key?(*args) 
+  end
+  def keys (*args)
+    self.to_h.keys(*args) 
+  end
+  def member? (*args)
+    self.to_h.member?(*args) 
+  end
+  def merge (*args)
+    self.to_h.merge(*args) 
+  end
+  def merge! (*args)
+    self.to_h.merge!(*args) 
+  end
+  def rehash (*args)
+    self.to_h.rehash(*args) 
+  end
+  def store (*args)
+    self.to_h.store(*args) 
+  end
+  def to_hash (*args)
+    self.to_h.to_hash(*args) 
+  end
+  def to_proc (*args)
+    self.to_h.to_proc(*args) 
+  end
+  def transform_values (*args)
+    self.to_h.transform_values(*args) 
+  end
+  def transform_values! (*args)
+    self.to_h.transform_values!(*args) 
+  end
+  def update (*args)
+    self.to_h.update(*args) 
+  end
+  def value? (*args)
+    self.to_h.value?(*args) 
+  end
+  def values (*args)
+    self.to_h.values(*args) 
+  end
 end
