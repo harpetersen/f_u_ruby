@@ -1,4 +1,7 @@
 class Hash
+  def tell_me_type
+    return "Hash"
+  end
   def do (*args)
     case args.size
       when 1
@@ -202,6 +205,9 @@ class Hash
 end
   
 class Array
+  def tell_me_type
+    return "Array"
+  end
   def < (*args)
     self.to_h.<(*args) 
   end
