@@ -24,11 +24,6 @@ class Hash
   def respond_to_missing?(method_name, include_private = false)
     super
   end
-  
-  
-  def | (*args)
-   self.to_a.|(*args)
-  end
 end
   
 class Array
