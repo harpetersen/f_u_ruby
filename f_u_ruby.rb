@@ -308,3 +308,33 @@ class Array
     self.to_h.values(*args) 
   end
 end
+
+class String
+  def tell_me_type
+    return "String"
+  end
+  def count (*args)
+    temp_array = [self]
+    temp_array.count(*args) 
+  end
+end
+
+class Integer
+  def tell_me_type
+    return "Integer"
+  end
+  def count (*args)
+    temp_array = [self]
+    temp_array.count(*args) 
+  end
+end
+
+class Float
+  def tell_me_type
+    return "Float"
+  end
+  def count (*args)
+    temp_array = [self]
+    temp_array.count(*args) 
+  end
+end
